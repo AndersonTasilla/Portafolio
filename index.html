@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#inicio">Anderson</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+            <li>
+              <a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/doraemon.png" alt="foto" />
+        </div>
+        <h1>ANDERSON TASILLA</h1>
+        <h2>Desarrollador Frontend</h2>
+        <div class="redes">
+          <a href="https://github.com/andersontasilla" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/anderson-nieto-tasilla-63a486319/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="Correo" id="email-link"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+      <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p>
+          <span>Hola, soy Anderson Tasilla.</span> Soy un desarrollador web
+          apasionado con una marcada proactividad y una fuerte capacidad de
+          aprendizaje autodidacta. A lo largo de mi carrera, he abordado
+          desafíos técnicos con creatividad y eficacia, contribuyendo al éxito
+          de diversos proyectos con soluciones innovadoras y escalables. Busco
+          oportunidades para participar en proyectos ambiciosos, aportando mi
+          compromiso con la excelencia en un entorno profesional.
+        </p>
+
+        <div class="fila">
+          <!-- datos personales -->
+          <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+              <li>
+                <strong>Cumpleaños</strong>
+                16-14-2004
+              </li>
+              <li>
+                <strong>Teléfono</strong>
+                +51 907 510 639
+              </li>
+              <li>
+                <strong>País</strong>
+                Perú
+              </li>
+              <li>
+                <strong>Cargo</strong>
+                <span>FREELANCE</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- intereses -->
+          <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSICA</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-linux"></i>
+                <span>Linux</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>DEPORTE</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-book"></i>
+                <span>LIBROS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-car"></i>
+                <span>AUTOS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-camera"></i>
+                <span>FOTOS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="assets/CV.pdf" target="_blank">
+          <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
+    </section>
+    <!-- SECCION SKILLS -->
+    <section id="skills" class="skills">
+      <div class="contenido-seccion">
+        <h2>Competencias</h2>
+        <div class="fila">
+          <div class="iconos">
+            <img
+              alt="HTML"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/html5.svg"
+            />
+            <img
+              alt="CSS"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/css.svg"
+            />
+            <img
+              alt="Figma"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/figma.svg"
+            />
+            <img
+              alt="TailwindCSS"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/tailwindcss.svg"
+            />
+            <img
+              alt="Js"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/javascript.svg"
+            />
+            <img
+              alt="Typescript"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/typescript.svg"
+            />
+            <img
+              alt="Vite"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/vitejs.svg"
+            />
+            <img
+              alt="NPM"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/npm.svg"
+            />
+            <img
+              alt="Pnpm"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/pnpm.svg"
+            />
+            <img
+              alt="React"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/react.svg"
+            />
+            <img
+              alt="ReactRouter"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/reactrouter.svg"
+            />
+            <img
+              alt="Nextjs"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/nextjs.svg"
+            />
+            <img
+              alt="Node"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/nodejs.svg"
+            />
+            <img
+              alt="Express"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/expressjs_dark.svg"
+            />
+            <img
+              alt="Postman"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/postman.svg"
+            />
+            <img
+              alt="Mysql"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/mysql.svg"
+            />
+            <img
+              alt="MongoDb"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/mongodb.svg"
+            />
+            <img
+              alt="Git"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/git.svg"
+            />
+            <img
+              alt="Github"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/github.svg"
+            />
+            <img
+              alt="Windows"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/windows.svg"
+            />
+            <img
+              alt="Warp"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/warp.svg"
+            />
+            <img
+              alt="Linux"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/linux.svg"
+            />
+            <img
+              alt="Bash"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/bash_dark.svg"
+            />
+            <img
+              alt="Netlify"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/netlify.svg"
+            />
+            <img
+              alt="Java"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/java.svg"
+            />
+            <img
+              alt="intellijidea"
+              height="50"
+              width="50"
+              src="https://cdn.jsdelivr.net/gh/lgcarlinf/cdnTest/assets/intellijidea.svg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="redes">
+        <a href="https://github.com/andersontasilla" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/anderson-nieto-tasilla-63a486319/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <!-- <a href="mailto:andersontasilla.dev@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a> -->
+        <a href="Correo" id="email-link">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
